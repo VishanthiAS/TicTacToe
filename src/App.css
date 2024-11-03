@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(35, 39, 47);
+}
+
+.app-header {
+  text-align: center;
+  font-family: "Sigmar", cursive;
+  font-size: 44px;
+  letter-spacing: 3px;
+  color: white;
+  margin-bottom: 28px;
+}
+
+.app-header span {
+  color: rgb(247, 180, 32);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    margin-bottom: 4px;
+  }
+}

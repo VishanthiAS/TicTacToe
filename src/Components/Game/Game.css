@@ -1,0 +1,50 @@
+.game {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.board-container {
+  width: 60%;
+}
+
+.board-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.play-again-btn-container {
+  text-align: center;
+}
+
+.play-again-btn {
+  height: 28px;
+  background-color: #686868;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 16px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.play-again-btn:hover {
+  background-color: whitesmoke;
+  color: #686868;
+}
+
+@media (max-width: 768px) {
+  .game {
+    flex-direction: column;
+  }
+  .board-container {
+    margin-bottom: 40px;
+  }
+  .history-container {
+    margin-left: 60px;
+    text-align: start;
+  }
+}
